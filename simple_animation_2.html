@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 400px;
+            height: 400px;
+            background-image: url('https://cdn.pixabay.com/photo/2025/08/02/11/04/wood-9750452_1280.jpg');
+            position: relative;
+            animation: myfirstanimation;
+            -webkit-animation: myfirstanimation;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-delay: 2s;
+            animation-direction: alternate-reverse;
+            background-size: 400px,400px;
+        }
+        @keyframes myfirstanimation
+        {
+             0%{background-image: url('https://cdn.pixabay.com/photo/2025/08/02/11/04/wood-9750452_1280.jpg');left: 0px;top: 0px;}
+            25%{background-image: url('https://cdn.pixabay.com/photo/2025/08/02/17/47/cat-9751060_1280.jpg');left: 300px;top: 0px;}
+            50%{background-image: url('https://cdn.pixabay.com/photo/2025/07/24/01/52/python-9731648_1280.jpg');left: 300px;top: 300px;}
+            75%{background-image: url('https://cdn.pixabay.com/photo/2025/04/25/12/13/nature-9558835_1280.jpg');left: 0px;top: 300px;}
+            100%{background-image: url('https://cdn.pixabay.com/photo/2025/08/02/11/04/wood-9750452_1280.jpg');left: 0px;top: 0px;}
+            }
+    </style>
+</head>
+<body>
+    <div></div>
+    
+</body>
+</html>

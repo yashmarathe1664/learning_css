@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            position: relative;
+            animation: myfirstanimation;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-delay: 2s;
+            animation-direction: alternate-reverse;
+        }
+        @keyframes myfirstanimation
+        {
+            0%{background-color: red;left: 0px;top: 0px;}
+            25%{background-color: green;left: 300px;top: 0px;}
+            50%{background-color: blue;left: 300px;top: 300px;}
+            75%{background-color: black;left: 0px;top: 300px;}
+            100%{background-color: red;left: 0px;top: 0px;}
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    
+</body>
+</html>
