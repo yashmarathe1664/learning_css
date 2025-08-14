@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media(min-width: 320px) and (max-width: 767px){
+            body{
+                font-size: 20px;
+                background: grey;
+            }
+            p{
+                display: none;
+            }
+            h1,h3{
+                color: black;
+            }
+            .img1{
+                display: none;
+            }
+        }
+
+        @media(min-width: 768px){
+            body{
+                font-size: 35px;
+                font-style: italic;
+                background-color: aqua;
+            }
+
+        }
+        @media(min-width: 1024px){
+            body{
+                background-color: blueviolet;
+                font-size: 20px;
+            }
+        }
+         @media(min-width: 1224px){
+            body{
+                background-color: burlywood;
+                font-size: 20px;
+            }
+        }
+       
+        @media(min-width: 1824px){
+            body{
+                background-color: olive;
+            }
+        }
+        @media(min-width:850px) and (max-width: 950px){
+            body{
+                background-color: plum;
+
+            }
+            h1,h3{
+                color: brown;
+                font-size: 100px;
+            }
+            .img1{
+                display: none;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dignissimos non quasi facere, 
+        ipsam voluptate eius! Cumque possimus ad earum nemo libero dignissimos consectetur. 
+        Rem molestias corporis sed delectus eaque.
+    </p>
+    <h1>CSS Media Queries</h1>
+    <p>The background will change according to the viewport width change</p> <br> <br>
+    <img class="img1" src="C:\github project\learning_css\Images\Jcb.jpg" alt="social">
+    
+    <h3>Smartphones - <span class="details"> from 320px and up </span>(min-width: 320px)</h3>
+    <p>BLUE</p>
+    <br>
+
+    <h3>Tablets,iPads (potrait)- <span class="details">from 768px and up</span>(min-width:768px)</h3>
+    <p>GREEN</p>
+    <br>
+
+    <h3>Tablets,iPads (potrait)- <span class="details">from 1024px and up</span>(min-width:1024px)</h3>
+    <p>YELLOW</p>
+    <br>
+    
+
+</body>
+</html>

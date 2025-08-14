@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .z-container{
+            position: relative;
+            margin: 50px;
+        }
+        div{
+            width: 150px;
+            height: 150px;
+            border-radius: 100px;
+            position: absolute;
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            border: 3px solid white;
+        }
+        .violet{
+            background-color: violet;
+            left: 60px;
+            z-index: 1;
+        }
+        .indigo{
+            background-color: indigo;
+            left: 90px;
+            z-index: 2;
+        }
+        .blue{
+            background-color: blue;
+            left: 120px;
+            z-index: 3;
+        }
+        .green{
+            background-color: green;
+            left: 150px;
+            z-index: 4;
+        }
+        .yellow{
+            background-color: yellow;
+            left: 180px;
+            z-index: 5;
+        }
+        .orange{
+            background-color: orange;
+            left: 210px;
+            z-index: 6;
+        }
+        .red{
+            background-color: red;
+            left: 240px;
+            z-index: 7;
+        }
+        .violet:hover{
+            z-index: 8;
+        }
+        .indigo:hover{
+            z-index: 9;
+        }
+        .blue:hover{
+            z-index: 10;
+        }
+        .green:hover{
+            z-index: 11;
+        }
+        .yellow:hover{
+            z-index: 12;
+        }
+        .orange:hover{
+            z-index: 13;
+        }
+        .red:hover{
+            z-index: 14;
+        }
+    </style>
+</head>
+<body>
+    <div class="z-container">
+        <div class="violet">VIOLET</div>
+        <div class="indigo">INDIGO</div>
+        <div class="blue">BLUE</div>
+        <div class="green">GREEN</div>
+        <div class="yellow">YELLOW</div>
+        <div class="orange">ORANGE</div>
+        <div class="red">RED</div>
+    </div>
+</body>
+</html>
